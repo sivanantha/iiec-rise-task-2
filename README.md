@@ -1,5 +1,5 @@
 # iiec-rise-task-2
-cgi based chatbot
+CGI Based Chatbot
 #### Features :
 - You can create user accounts.
 - You can change the password for the user account.
