@@ -1,0 +1,76 @@
+<html>
+<header>
+	<title>Login</title>
+</header>
+<style>
+body{
+background-image:linear-gradient(to bottom right,black,white);
+background-size:auto;
+background-repeat:no-repeat;
+}
+.center{
+position:absolute;
+top:50%;
+left:50%;
+-ms-transform:translate(-50%,-50%);
+transform:translate(-50%,-50%);
+}
+#normal{
+color:aqua;
+font-size:22px;
+font-weight:bold;
+}
+#head{
+color:yellow;
+font-size:28px;
+font-weight:bold;
+}
+a{
+color:palegreen;
+text-decoration:none;
+}
+input[type=submit]
+{
+background-color:crimson;
+color:white;
+border:none;
+border-radius:5px 10px;
+font-size:16px;
+cursor:pointer;
+padding:6px 12px;
+}
+input[type=text],input[type=password]
+{
+padding:4px 18px;
+border:2px solid lavender;
+font-size:15px;
+border-radius:5px;
+}
+</style>
+<body>
+	<div class="center">
+	<form method="post" action="http://127.0.0.1/cgi-bin/login.py">
+	      <table style="border-spacing:20px">
+		<tr>
+		  <td id="head" align="center" colspan="2" > Login </td>
+		</tr>
+		<tr>
+		  <td id="normal"align="right"> Username </td>
+		  <td align="left"><input placeholder="username" type="text" name="username"/></td>
+		</tr>
+		<tr>
+		  <td id="normal" align="right"> Password </td>
+		  <td align="left"><input placeholder="password" type="password" name="pwd" /></td>
+	     </table>		
+	     <br/>
+	     <center/> <input type="submit" value="Login" />
+	</form>
+		<br/>
+		<a href="forgot password.html" > <h4> Forgot password? </h4> </a>
+		<a href="register.html" > <h4> Register </h4> </a>
+	</div>
+</body>
+
+
+
+</html>
